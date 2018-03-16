@@ -1,0 +1,1600 @@
+1122 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+1123 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:host.name=storm-ce27
+1123 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_151
+1124 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+1124 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+1124 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.class.path=/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/log4j-over-slf4j-1.6.6.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/tools.macro-0.1.0.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/carbonite-1.4.0.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/commons-lang-2.5.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/logback-classic-1.0.13.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/commons-logging-1.1.3.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/slf4j-api-1.7.5.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/joda-time-2.0.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/math.numeric-tower-0.0.1.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/objenesis-1.2.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/snakeyaml-1.11.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/jgrapht-core-0.9.0.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/compojure-1.1.3.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/tools.logging-0.2.3.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/minlog-1.2.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/commons-codec-1.6.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/ring-devel-0.3.11.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/jetty-6.1.26.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/asm-4.0.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/tools.cli-0.2.4.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/clj-time-0.4.1.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/storm-core-0.9.6.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/clout-1.0.1.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/hiccup-0.3.6.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/logback-core-1.0.13.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/core.incubator-0.1.0.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/clojure-1.5.1.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/jetty-util-6.1.26.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/servlet-api-2.5.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/ring-servlet-0.3.11.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/commons-fileupload-1.2.1.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/jline-2.11.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/ring-core-1.1.5.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/json-simple-1.1.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/clj-stacktrace-0.2.2.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/ring-jetty-adapter-0.3.11.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/reflectasm-1.07-shaded.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/kryo-2.21.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/chill-java-0.3.5.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/disruptor-2.10.4.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/commons-io-2.4.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/commons-exec-1.1.jar:./target/storm-twitter-word-count-jar-with-dependencies.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/conf:/home/ce-27/ce-27/storm/apache-storm-0.9.6/bin
+1124 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/local/lib:/opt/local/lib:/usr/lib
+1124 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+1124 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+1124 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:os.name=Linux
+1124 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+1124 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:os.version=4.8.0-53-generic
+1124 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:user.name=root
+1124 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:user.home=/root
+1124 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:user.dir=/home/ce-27/ce-27/storm/apache-storm-0.9.6/examples/storm-twitter-word-count
+1129 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+1129 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:host.name=storm-ce27
+1129 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.version=1.8.0_151
+1129 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.vendor=Oracle Corporation
+1129 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+1129 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.class.path=/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/log4j-over-slf4j-1.6.6.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/tools.macro-0.1.0.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/carbonite-1.4.0.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/commons-lang-2.5.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/logback-classic-1.0.13.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/commons-logging-1.1.3.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/slf4j-api-1.7.5.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/joda-time-2.0.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/math.numeric-tower-0.0.1.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/objenesis-1.2.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/snakeyaml-1.11.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/jgrapht-core-0.9.0.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/compojure-1.1.3.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/tools.logging-0.2.3.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/minlog-1.2.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/commons-codec-1.6.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/ring-devel-0.3.11.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/jetty-6.1.26.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/asm-4.0.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/tools.cli-0.2.4.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/clj-time-0.4.1.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/storm-core-0.9.6.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/clout-1.0.1.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/hiccup-0.3.6.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/logback-core-1.0.13.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/core.incubator-0.1.0.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/clojure-1.5.1.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/jetty-util-6.1.26.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/servlet-api-2.5.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/ring-servlet-0.3.11.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/commons-fileupload-1.2.1.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/jline-2.11.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/ring-core-1.1.5.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/json-simple-1.1.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/clj-stacktrace-0.2.2.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/ring-jetty-adapter-0.3.11.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/reflectasm-1.07-shaded.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/kryo-2.21.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/chill-java-0.3.5.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/disruptor-2.10.4.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/commons-io-2.4.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/lib/commons-exec-1.1.jar:./target/storm-twitter-word-count-jar-with-dependencies.jar:/home/ce-27/ce-27/storm/apache-storm-0.9.6/conf:/home/ce-27/ce-27/storm/apache-storm-0.9.6/bin
+1129 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.library.path=/usr/local/lib:/opt/local/lib:/usr/lib
+1129 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.io.tmpdir=/tmp
+1129 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.compiler=<NA>
+1129 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:os.name=Linux
+1130 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:os.arch=amd64
+1130 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:os.version=4.8.0-53-generic
+1130 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:user.name=root
+1130 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:user.home=/root
+1130 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:user.dir=/home/ce-27/ce-27/storm/apache-storm-0.9.6/examples/storm-twitter-word-count
+1450 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /tmp/364f9993-ac61-4ec0-82ce-6d76ba5fda33/version-2 snapdir /tmp/364f9993-ac61-4ec0-82ce-6d76ba5fda33/version-2
+1454 [main] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:2000
+1456 [main] INFO  backtype.storm.zookeeper - Starting inprocess zookeeper at port 2000 and dir /tmp/364f9993-ac61-4ec0-82ce-6d76ba5fda33
+1535 [main] INFO  backtype.storm.daemon.nimbus - Starting Nimbus with conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 0, "topology.skip.missing.kryo.registrations" true, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 50, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/tmp/fac6a5a1-a28f-4064-848a-049ab224ad41", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 8, "nimbus.host" "nimbus", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2000, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" [6700 6701 6702 6703], "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.disruptor.wait.timeout.millis" 1000, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "local", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+1538 [main] INFO  backtype.storm.daemon.nimbus - Using default scheduler
+1544 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+1574 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+1576 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@42b21d99
+1585 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+1627 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+1627 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:53010
+1631 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:53010
+1633 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.persistence.FileTxnLog - Creating new log file: log.1
+1680 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x1622e2969580000 with negotiated timeout 20000 for client /127.0.0.1:53010
+1680 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x1622e2969580000, negotiated timeout = 20000
+1681 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+1682 [main-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+2725 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x1622e2969580000
+2734 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x1622e2969580000 closed
+2734 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+2735 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:53010 which had sessionid 0x1622e2969580000
+2735 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2736 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+2736 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@4c4f4365
+2737 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+2737 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+2737 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:53020
+2738 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:53020
+2747 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x1622e2969580001 with negotiated timeout 20000 for client /127.0.0.1:53020
+2748 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x1622e2969580001, negotiated timeout = 20000
+2748 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+2825 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2825 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+2826 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@3f4b840d
+2827 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+2827 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+2827 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:53022
+2827 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:53022
+2840 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x1622e2969580002 with negotiated timeout 20000 for client /127.0.0.1:53022
+2840 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x1622e2969580002, negotiated timeout = 20000
+2841 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+2841 [main-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+2843 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x1622e2969580002
+2852 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x1622e2969580002 closed
+2852 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+2852 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:53022 which had sessionid 0x1622e2969580002
+2852 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2853 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+2853 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@8d7b252
+2854 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+2854 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+2854 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:53024
+2855 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:53024
+2855 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2855 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+2856 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@58496dc
+2856 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+2856 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+2856 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:53026
+2856 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:53026
+2864 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x1622e2969580003 with negotiated timeout 20000 for client /127.0.0.1:53024
+2864 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x1622e2969580003, negotiated timeout = 20000
+2865 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+2878 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x1622e2969580004 with negotiated timeout 20000 for client /127.0.0.1:53026
+2878 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x1622e2969580004, negotiated timeout = 20000
+2878 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+2878 [main-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+2879 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x1622e2969580004
+2890 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x1622e2969580004 closed
+2890 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+2890 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:53026 which had sessionid 0x1622e2969580004
+2890 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2890 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+2891 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@7a5b769b
+2891 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+2891 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+2891 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:53028
+2892 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:53028
+2903 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x1622e2969580005 with negotiated timeout 20000 for client /127.0.0.1:53028
+2903 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x1622e2969580005, negotiated timeout = 20000
+2903 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+2911 [main] INFO  backtype.storm.daemon.supervisor - Starting Supervisor with conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 0, "topology.skip.missing.kryo.registrations" true, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 50, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/tmp/f928445f-47ed-4b94-86a6-18c2a0f88558", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 8, "nimbus.host" "nimbus", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2000, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" (1024 1025 1026), "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.disruptor.wait.timeout.millis" 1000, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "local", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+2920 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2920 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+2921 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@627d8516
+2921 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+2921 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+2921 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:53030
+2922 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:53030
+2932 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x1622e2969580006 with negotiated timeout 20000 for client /127.0.0.1:53030
+2932 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x1622e2969580006, negotiated timeout = 20000
+2932 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+2932 [main-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+2933 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x1622e2969580006
+2945 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x1622e2969580006 closed
+2945 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+2946 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:53030 which had sessionid 0x1622e2969580006
+2946 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2946 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+2946 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@3cec79d3
+2946 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+2954 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+2954 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:53032
+2955 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:53032
+2966 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x1622e2969580007 with negotiated timeout 20000 for client /127.0.0.1:53032
+2966 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x1622e2969580007, negotiated timeout = 20000
+2966 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+2996 [main] INFO  backtype.storm.daemon.supervisor - Starting supervisor with id 1de8a420-3790-442b-9593-a9a80831076b at host storm-ce27
+2998 [main] INFO  backtype.storm.daemon.supervisor - Starting Supervisor with conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 0, "topology.skip.missing.kryo.registrations" true, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 50, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/tmp/f4a12e92-f346-4e3e-b252-fc4a630f8c23", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 8, "nimbus.host" "nimbus", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2000, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" (1027 1028 1029), "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.disruptor.wait.timeout.millis" 1000, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "local", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+2999 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2999 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+3000 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@4ba380c7
+3000 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+3000 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+3000 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:53034
+3000 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:53034
+3016 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x1622e2969580008 with negotiated timeout 20000 for client /127.0.0.1:53034
+3016 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x1622e2969580008, negotiated timeout = 20000
+3016 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+3016 [main-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+3018 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x1622e2969580008
+3028 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x1622e2969580008 closed
+3028 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+3028 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:53034 which had sessionid 0x1622e2969580008
+3028 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+3028 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+3029 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@6401d0a0
+3029 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+3029 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+3029 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:53036
+3029 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:53036
+3041 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x1622e2969580009 with negotiated timeout 20000 for client /127.0.0.1:53036
+3042 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x1622e2969580009, negotiated timeout = 20000
+3042 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+3062 [main] INFO  backtype.storm.daemon.supervisor - Starting supervisor with id 540dc64f-24d9-4842-ac10-97e1ca0c7c7d at host storm-ce27
+3099 [main] INFO  backtype.storm.daemon.nimbus - Received topology submission for storm-twitter-word-count with conf {"topology.max.task.parallelism" nil, "topology.acker.executors" nil, "topology.kryo.register" nil, "topology.kryo.decorators" (), "topology.name" "storm-twitter-word-count", "storm.id" "storm-twitter-word-count-1-1521192890", "topology.message.timeout.secs" 120}
+3124 [main] INFO  backtype.storm.daemon.nimbus - Activating storm-twitter-word-count: storm-twitter-word-count-1-1521192890
+3211 [main] INFO  backtype.storm.scheduler.EvenScheduler - Available slots: (["540dc64f-24d9-4842-ac10-97e1ca0c7c7d" 1027] ["540dc64f-24d9-4842-ac10-97e1ca0c7c7d" 1028] ["540dc64f-24d9-4842-ac10-97e1ca0c7c7d" 1029] ["1de8a420-3790-442b-9593-a9a80831076b" 1024] ["1de8a420-3790-442b-9593-a9a80831076b" 1025] ["1de8a420-3790-442b-9593-a9a80831076b" 1026])
+3229 [main] INFO  backtype.storm.daemon.nimbus - Setting new assignment for topology id storm-twitter-word-count-1-1521192890: #backtype.storm.daemon.common.Assignment{:master-code-dir "/tmp/fac6a5a1-a28f-4064-848a-049ab224ad41/nimbus/stormdist/storm-twitter-word-count-1-1521192890", :node->host {"540dc64f-24d9-4842-ac10-97e1ca0c7c7d" "storm-ce27"}, :executor->node+port {[4 4] ["540dc64f-24d9-4842-ac10-97e1ca0c7c7d" 1027], [3 3] ["540dc64f-24d9-4842-ac10-97e1ca0c7c7d" 1027], [2 2] ["540dc64f-24d9-4842-ac10-97e1ca0c7c7d" 1027], [1 1] ["540dc64f-24d9-4842-ac10-97e1ca0c7c7d" 1027], [5 5] ["540dc64f-24d9-4842-ac10-97e1ca0c7c7d" 1027]}, :executor->start-time-secs {[5 5] 1521192890, [4 4] 1521192890, [3 3] 1521192890, [2 2] 1521192890, [1 1] 1521192890}}
+3269 [main] INFO  backtype.storm.StormSubmitter - Jar not uploaded to master yet. Submitting jar...
+3274 [main] INFO  backtype.storm.StormSubmitter - Uploading topology jar ./target/storm-twitter-word-count-jar-with-dependencies.jar to assigned location: ���~/ce-27/storm���/nimbus/inbox/stormjar-19c23cd8-cf7b-40c9-9aa8-5ddc3098ffff.jar
+3305 [main] INFO  backtype.storm.StormSubmitter - Successfully uploaded topology jar to assigned location: ���~/ce-27/storm���/nimbus/inbox/stormjar-19c23cd8-cf7b-40c9-9aa8-5ddc3098ffff.jar
+3305 [main] INFO  backtype.storm.StormSubmitter - Submitting topology storm-twitter-word-count in distributed mode with conf {"topology.message.timeout.secs":120}
+3498 [main] INFO  backtype.storm.StormSubmitter - Finished submitting topology: storm-twitter-word-count
+4170 [Thread-6] INFO  backtype.storm.daemon.supervisor - Launching worker with assignment #backtype.storm.daemon.supervisor.LocalAssignment{:storm-id "storm-twitter-word-count-1-1521192890", :executors ([4 4] [3 3] [2 2] [1 1] [5 5])} for this supervisor 540dc64f-24d9-4842-ac10-97e1ca0c7c7d on port 1027 with id 4b75d990-8e3a-40ba-8f0e-30ed6f8ca97d
+4171 [Thread-6] INFO  backtype.storm.daemon.worker - Launching worker for storm-twitter-word-count-1-1521192890 on 540dc64f-24d9-4842-ac10-97e1ca0c7c7d:1027 with id 4b75d990-8e3a-40ba-8f0e-30ed6f8ca97d and conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 0, "topology.skip.missing.kryo.registrations" true, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 50, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/tmp/f4a12e92-f346-4e3e-b252-fc4a630f8c23", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 8, "nimbus.host" "nimbus", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2000, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" (1027 1028 1029), "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.disruptor.wait.timeout.millis" 1000, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "local", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+4171 [Thread-6] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+4171 [Thread-6] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+4171 [Thread-6] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@5176b712
+4172 [Thread-6-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+4172 [Thread-6-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+4172 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:53062
+4172 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:53062
+4184 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x1622e296958000a with negotiated timeout 20000 for client /127.0.0.1:53062
+4184 [Thread-6-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x1622e296958000a, negotiated timeout = 20000
+4184 [Thread-6-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+4184 [Thread-6-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+4186 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x1622e296958000a
+4197 [Thread-6] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x1622e296958000a closed
+4197 [Thread-6-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+4197 [Thread-6] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+4197 [Thread-6] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+4198 [Thread-6] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@5bf8cb51
+4198 [Thread-6-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+4198 [Thread-6-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+4200 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] WARN  org.apache.storm.zookeeper.server.NIOServerCnxn - caught end of stream exception
+org.apache.storm.zookeeper.server.ServerCnxn$EndOfStreamException: Unable to read additional data from client sessionid 0x1622e296958000a, likely client has closed socket
+	at org.apache.storm.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228) ~[storm-core-0.9.6.jar:0.9.6]
+	at org.apache.storm.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208) [storm-core-0.9.6.jar:0.9.6]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+4200 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:53062 which had sessionid 0x1622e296958000a
+4200 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:53064
+4200 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:53064
+4209 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x1622e296958000b with negotiated timeout 20000 for client /127.0.0.1:53064
+4210 [Thread-6-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x1622e296958000b, negotiated timeout = 20000
+4210 [Thread-6-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+4213 [Thread-6] INFO  backtype.storm.daemon.worker - Reading Assignments.
+4237 [Thread-6] INFO  backtype.storm.daemon.worker - Launching receive-thread for 540dc64f-24d9-4842-ac10-97e1ca0c7c7d:1027
+4240 [Thread-8-worker-receiver-thread-0] INFO  backtype.storm.messaging.loader - Starting receive-thread: [stormId: storm-twitter-word-count-1-1521192890, port: 1027, thread-id: 0 ]
+4365 [Thread-6] INFO  backtype.storm.daemon.executor - Loading executor TwitterSampleSpout:[2 2]
+4369 [Thread-6] INFO  backtype.storm.daemon.executor - Loaded executor tasks TwitterSampleSpout:[2 2]
+4374 [Thread-6] INFO  backtype.storm.daemon.executor - Finished loading executor TwitterSampleSpout:[2 2]
+4380 [Thread-6] INFO  backtype.storm.daemon.executor - Loading executor WordCounterBolt:[3 3]
+4380 [Thread-6] INFO  backtype.storm.daemon.executor - Loaded executor tasks WordCounterBolt:[3 3]
+4384 [Thread-6] INFO  backtype.storm.daemon.executor - Finished loading executor WordCounterBolt:[3 3]
+4388 [Thread-6] INFO  backtype.storm.daemon.executor - Loading executor WordSplitterBolt:[4 4]
+4388 [Thread-6] INFO  backtype.storm.daemon.executor - Loaded executor tasks WordSplitterBolt:[4 4]
+4390 [Thread-6] INFO  backtype.storm.daemon.executor - Finished loading executor WordSplitterBolt:[4 4]
+4394 [Thread-6] INFO  backtype.storm.daemon.executor - Loading executor __acker:[5 5]
+4394 [Thread-6] INFO  backtype.storm.daemon.executor - Loaded executor tasks __acker:[5 5]
+4395 [Thread-6] INFO  backtype.storm.daemon.executor - Timeouts disabled for executor __acker:[5 5]
+4395 [Thread-6] INFO  backtype.storm.daemon.executor - Finished loading executor __acker:[5 5]
+4399 [Thread-6] INFO  backtype.storm.daemon.executor - Loading executor __system:[-1 -1]
+4399 [Thread-6] INFO  backtype.storm.daemon.executor - Loaded executor tasks __system:[-1 -1]
+4400 [Thread-6] INFO  backtype.storm.daemon.executor - Finished loading executor __system:[-1 -1]
+4403 [Thread-6] INFO  backtype.storm.daemon.executor - Loading executor IgnoreWordsBolt:[1 1]
+4404 [Thread-6] INFO  backtype.storm.daemon.executor - Loaded executor tasks IgnoreWordsBolt:[1 1]
+4405 [Thread-6] INFO  backtype.storm.daemon.executor - Finished loading executor IgnoreWordsBolt:[1 1]
+4408 [Thread-6] INFO  backtype.storm.daemon.worker - Worker has topology config {"storm.id" "storm-twitter-word-count-1-1521192890", "dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 0, "topology.skip.missing.kryo.registrations" true, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 50, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/tmp/f4a12e92-f346-4e3e-b252-fc4a630f8c23", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 8, "nimbus.host" "nimbus", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2000, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.kryo.decorators" (), "topology.name" "storm-twitter-word-count", "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" (1027 1028 1029), "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.kryo.register" nil, "topology.message.timeout.secs" 120, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.disruptor.wait.timeout.millis" 1000, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "local", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+4409 [Thread-6] INFO  backtype.storm.daemon.worker - Worker 4b75d990-8e3a-40ba-8f0e-30ed6f8ca97d for storm storm-twitter-word-count-1-1521192890 on 540dc64f-24d9-4842-ac10-97e1ca0c7c7d:1027 has finished loading
+5225 [refresh-active-timer] INFO  backtype.storm.daemon.worker - All connections are ready for worker 540dc64f-24d9-4842-ac10-97e1ca0c7c7d:1027 with id 4b75d990-8e3a-40ba-8f0e-30ed6f8ca97d
+5277 [Thread-10-TwitterSampleSpout] INFO  backtype.storm.daemon.executor - Opening spout TwitterSampleSpout:(2)
+5284 [Thread-12-WordCounterBolt] INFO  backtype.storm.daemon.executor - Preparing bolt WordCounterBolt:(3)
+5287 [Thread-12-WordCounterBolt] INFO  backtype.storm.daemon.executor - Prepared bolt WordCounterBolt:(3)
+5290 [Thread-14-WordSplitterBolt] INFO  backtype.storm.daemon.executor - Preparing bolt WordSplitterBolt:(4)
+5291 [Thread-14-WordSplitterBolt] INFO  backtype.storm.daemon.executor - Prepared bolt WordSplitterBolt:(4)
+5296 [Thread-16-__acker] INFO  backtype.storm.daemon.executor - Preparing bolt __acker:(5)
+5297 [Thread-16-__acker] INFO  backtype.storm.daemon.executor - Prepared bolt __acker:(5)
+5301 [Thread-18-__system] INFO  backtype.storm.daemon.executor - Preparing bolt __system:(-1)
+5303 [Thread-18-__system] INFO  backtype.storm.daemon.executor - Prepared bolt __system:(-1)
+5306 [Thread-20-IgnoreWordsBolt] INFO  backtype.storm.daemon.executor - Preparing bolt IgnoreWordsBolt:(1)
+5306 [Thread-20-IgnoreWordsBolt] INFO  backtype.storm.daemon.executor - Prepared bolt IgnoreWordsBolt:(1)
+5314 [Twitter Stream consumer-1[initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+5315 [Thread-10-TwitterSampleSpout] INFO  backtype.storm.daemon.executor - Opened spout TwitterSampleSpout:(2)
+5316 [Thread-10-TwitterSampleSpout] INFO  backtype.storm.daemon.executor - Activating spout TwitterSampleSpout:(2)
+7729 [Twitter Stream consumer-1[Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+7729 [Twitter Stream consumer-1[Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+16292 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+16292 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 333
+16293 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - anime|1
+16293 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|2
+27452 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+27452 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 702
+27452 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - ให้มันน่ารักแบบนี้สิคะ|1
+27452 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|2
+27452 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|3
+27453 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - happy|4
+27453 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|17
+39786 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+39787 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 859
+39787 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - ให้มันน่ารักแบบนี้สิคะ|1
+39787 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - soup•|2
+39787 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|3
+39787 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - happy|4
+39787 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|17
+50792 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+50792 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 1239
+50794 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - ให้มันน่ารักแบบนี้สิคะ|1
+50794 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|2
+50794 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|3
+50794 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - happy|4
+50794 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|17
+61796 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+61796 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 1453
+61797 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - ให้มันน่ารักแบบนี้สิคะ|1
+61797 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|2
+61797 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|3
+61797 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|4
+61797 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - happy|5
+61797 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|17
+72954 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+72954 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 1706
+72955 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - geldik|1
+72955 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - stories|2
+72955 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - james|3
+72955 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|4
+72955 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|5
+72955 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|17
+76279 [Twitter Stream consumer-1[Receiving stream]] INFO  twitter4j.TwitterStreamImpl - Stream closed.
+76279 [Twitter Stream consumer-1[Receiving stream]] INFO  twitter4j.TwitterStreamImpl - Stream closed.
+76279 [Twitter Stream consumer-1[Receiving stream]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
+76529 [Twitter Stream consumer-1[Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+78323 [Twitter Stream consumer-1[Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+78323 [Twitter Stream consumer-1[Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+84622 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+84622 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 2071
+84623 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - geldik|1
+84623 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|2
+84623 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - james|3
+84623 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|4
+84623 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|5
+84623 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|17
+96086 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+96087 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 2323
+96088 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - uthman371|1
+96088 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|2
+96088 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - james|3
+96088 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|4
+96088 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|5
+96088 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|17
+107549 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+107549 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 2456
+107551 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - uthman371|1
+107551 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - really|2
+107551 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - james|3
+107551 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|4
+107551 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|5
+107551 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - happy|6
+107551 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|17
+119474 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+119474 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 2687
+119476 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|1
+119476 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|2
+119476 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - really|3
+119476 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|4
+119476 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|5
+119476 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - happy|6
+119476 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|17
+131400 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+131400 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 2920
+131402 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|1
+131402 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|2
+131402 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - really|3
+131402 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - jimin|4
+131402 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|5
+131402 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - night|6
+131402 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - happy|7
+131402 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|18
+142812 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+142812 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 3207
+142814 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|1
+142814 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|2
+142814 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - person|3
+142814 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - really|4
+142814 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|5
+142814 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - night|6
+142815 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - happy|7
+142815 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|18
+154376 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+154376 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 3422
+154378 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|1
+154378 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|2
+154379 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - person|3
+154379 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - really|4
+154379 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|5
+154379 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - night|6
+154379 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - happy|7
+154379 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|18
+159220 [Twitter Stream consumer-1[Receiving stream]] INFO  twitter4j.TwitterStreamImpl - Stream closed.
+159220 [Twitter Stream consumer-1[Receiving stream]] INFO  twitter4j.TwitterStreamImpl - Stream closed.
+159220 [Twitter Stream consumer-1[Receiving stream]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
+159470 [Twitter Stream consumer-1[Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+161512 [Twitter Stream consumer-1[Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+161512 [Twitter Stream consumer-1[Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+165791 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+165791 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 4125
+165794 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rakan4646|1
+165794 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|2
+165794 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - james|3
+165794 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|4
+165794 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - really|5
+165794 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|6
+165794 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|7
+165794 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|8
+165794 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|18
+176799 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+176799 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 5676
+176803 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rakan4646|1
+176803 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - played|2
+176803 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - موجود|3
+176803 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - person|4
+176803 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - birthday|5
+176803 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - really|6
+176803 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|7
+176803 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|8
+176803 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|9
+176803 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - happy|10
+176804 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|11
+176804 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|18
+187805 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+187805 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 7110
+187809 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rakan4646|1
+187809 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|2
+187809 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - james|3
+187809 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - doing|4
+187809 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - trump|5
+187809 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - since|6
+187809 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - really|7
+187809 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|8
+187809 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|9
+187809 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|10
+187809 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - happy|11
+187809 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|13
+187809 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|18
+198811 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+198811 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 8567
+198812 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rakan4646|1
+198812 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|2
+198812 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - james|3
+198812 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - doing|4
+198812 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - tomorrow|5
+198812 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - robinsons|6
+198813 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - update|7
+198813 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|8
+198813 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - elyxioninbkk|9
+198813 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - really|10
+198813 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|11
+198813 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|17
+198813 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|18
+209814 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+209814 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 9927
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rakan4646|1
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|2
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - james|3
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - tener|4
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - weekend|5
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|6
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - update|7
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - robinsons|8
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - believe|9
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - really|10
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|11
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|12
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - happy|13
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|15
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|18
+209816 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|19
+220818 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+220818 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 11356
+220819 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 0mi15g6n49|1
+220819 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|2
+220819 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - millones|3
+220819 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - james|4
+220819 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - weekend|5
+220819 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - where|6
+220819 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|7
+220819 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - always|8
+220819 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - robinsons|9
+220819 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - believe|10
+220819 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - really|11
+220819 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|12
+220819 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - elyxioninbkk|13
+220820 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|14
+220820 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|15
+220820 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|17
+220820 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|18
+220820 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|19
+220820 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|22
+231820 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+231820 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 12598
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rakan4646|1
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - millones|3
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - james|4
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|5
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - orang|6
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|7
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - maymay|8
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - update|9
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - robinsons|10
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الكبر|11
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|13
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - happy|14
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|15
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|16
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|17
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|18
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|20
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|25
+231822 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|29
+242823 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+242823 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 14102
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rakan4646|1
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|3
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - james|4
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|5
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - orang|6
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|7
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|8
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - maymay|9
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - update|10
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - robinsons|11
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - retweet|12
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - going|13
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - happy|14
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|15
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|16
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|17
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|18
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|19
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|20
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|24
+242825 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|31
+253826 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+253826 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 15382
+253828 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rakan4646|1
+253828 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+253828 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|3
+253828 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - james|4
+253828 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - until|5
+253828 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|6
+253828 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - heart|7
+253828 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|8
+253828 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|9
+253828 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - update|10
+253828 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - still|11
+253829 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - robinsons|12
+253829 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - thank|13
+253829 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|14
+253829 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - welcomeexotothailand|15
+253829 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|16
+253829 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|17
+253829 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|18
+253829 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - friday|19
+253829 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|20
+253829 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|21
+253829 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|24
+253829 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|37
+253829 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|41
+264830 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+264830 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 16654
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rakan4646|1
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - graham|3
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|4
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - until|5
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|6
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - orang|7
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|8
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|9
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - update|10
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - بكلمات|11
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - robinsons|12
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - twitter|13
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الكبر|14
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - welcomeexotothailand|16
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|17
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|18
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|20
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|21
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|22
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|24
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|42
+264831 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|45
+275833 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+275833 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 17996
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rakan4646|1
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - graham|3
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|4
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|5
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|6
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|7
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|8
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|9
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - update|10
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|11
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - retweet|12
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - robinsons|13
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - twitter|14
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والأرض|15
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|17
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - thank|19
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - elyxioninbkk|20
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|21
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|23
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|25
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|47
+275836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|50
+286837 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+286837 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 19299
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rakan4646|1
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - موتانا|3
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|4
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|5
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - irene|6
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|7
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|8
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - other|9
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|10
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - update|11
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|12
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - بكلمات|13
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - robinsons|14
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - twitter|15
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والأرض|16
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - please|18
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|19
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - thank|20
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - really|21
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|22
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|23
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|24
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|25
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|26
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|49
+286840 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|52
+297993 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+297994 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 20500
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rakan4646|1
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - موتانا|3
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|4
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - james|5
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|6
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|7
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|8
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - other|9
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - girls|10
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - update|11
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|12
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|13
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والحمد|14
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wannaone|15
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - twitter|16
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - robinsons|17
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - welcomeexotothailand|18
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - please|19
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|20
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - really|21
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|24
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|25
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|26
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|28
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|49
+297997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|61
+308996 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+308996 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 21728
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rakan4646|1
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - موتانا|3
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - millones|4
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|5
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|6
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|7
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|8
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - other|9
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - every|10
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - since|11
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|12
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - بكلمات|13
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - still|14
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|15
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الكبر|16
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - believe|17
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - twitter|18
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - happy|19
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - robinsons|20
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - thank|21
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|22
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|24
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|26
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|27
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|28
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|29
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|30
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|52
+308999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|65
+319997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+319997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 1939
+319998 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - motion|1
+319998 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - scared|2
+319998 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|3
+319998 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - irene|4
+330997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+330997 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 3715
+330998 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|1
+330998 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bulunan|2
+330998 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|3
+330998 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|4
+330998 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|5
+330998 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|6
+341999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+341999 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 5358
+342000 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|1
+342000 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - drake|2
+342000 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|3
+342000 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - irene|4
+342000 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|5
+342000 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|6
+342000 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|7
+342000 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|10
+353007 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+353007 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 6985
+353008 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|1
+353008 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - drake|2
+353008 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|3
+353008 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|4
+353008 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - irene|5
+353008 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|6
+353008 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|7
+353008 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|8
+353008 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|9
+353008 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|10
+353008 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|12
+353008 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|13
+364009 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+364009 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 8326
+364010 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|1
+364010 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سلمان|2
+364010 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - store|3
+364010 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - until|4
+364010 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|5
+364010 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|6
+364010 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|7
+364010 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|8
+364010 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|9
+364010 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|11
+364010 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|12
+364010 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|13
+364010 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|22
+375010 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+375011 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 9931
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|1
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سلمان|2
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - store|3
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - afrin|4
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|5
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|6
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|7
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|8
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - online|9
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|10
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|11
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|12
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|14
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|15
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|18
+375012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|30
+386011 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+386011 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 11425
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|1
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - carried|2
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - store|3
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|4
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|5
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - irene|6
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|7
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - maymay|8
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|9
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - march|10
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|11
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|12
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|13
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|14
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|17
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - video|18
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|23
+386012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|33
+397011 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+397011 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 12830
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|1
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - carried|2
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|3
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|4
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|5
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - irene|6
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|7
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - بكلمات|8
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - event|9
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - please|10
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|11
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - world|12
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|13
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|14
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|15
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|17
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|18
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - video|20
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|25
+397013 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|39
+408012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+408012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 14252
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - ldyygm2dnk|1
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|2
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|3
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - afrin|4
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|5
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - orang|6
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|7
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - until|8
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|9
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - event|10
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|11
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - march|12
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|13
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - world|14
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|15
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|17
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|18
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|19
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|20
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - video|22
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|25
+408014 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|46
+419012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+419012 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 15659
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - ldyygm2dnk|1
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|2
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - drake|3
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|4
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|5
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - orang|6
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|7
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - twitter|8
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|9
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - event|10
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|11
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - robinsons|12
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - march|13
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|14
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - world|15
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|16
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|17
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|18
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|19
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|21
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - video|24
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|25
+419015 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|51
+430576 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+430576 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 16887
+430578 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - ldyygm2dnk|1
+430578 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - selena|2
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|4
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|5
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|6
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|7
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - nunca|8
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - until|9
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|10
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|11
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - online|12
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - should|13
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|14
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|15
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|18
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|19
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|20
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|24
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|28
+430579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|55
+441579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+441579 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 18381
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - ldyygm2dnk|1
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - drama|2
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|4
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|5
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|6
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|7
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - still|8
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - until|9
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - elyxioninbkk|10
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - event|11
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|12
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|13
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|14
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - please|15
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - world|16
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|18
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|19
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|21
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|22
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|23
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|24
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - video|25
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - after|26
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|27
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|28
+441581 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|68
+452786 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+452786 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 19700
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - ldyygm2dnk|1
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - drama|2
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|4
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|5
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|6
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|7
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - eyesonyou|8
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|9
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - every|10
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - until|11
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|12
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - online|13
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|14
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - please|15
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|16
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - march|17
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|19
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|22
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|23
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|24
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|27
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wannaone|28
+452789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|72
+463786 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+463786 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 21087
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - ldyygm2dnk|1
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - dujun|2
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - bitch|4
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|5
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|6
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - نصيري|7
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - already|8
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - orang|9
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|10
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|11
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - until|12
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - event|13
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - online|14
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|15
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|16
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - march|17
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|20
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|22
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|23
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|25
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - after|27
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|28
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|30
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|33
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wannaone|36
+463789 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|81
+474836 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+474837 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 22449
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - ldyygm2dnk|1
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - dujun|2
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - carried|4
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|5
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - thought|6
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - irene|7
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - نصيري|8
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - ومداد|9
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|10
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|11
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|12
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - until|13
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - robinsons|14
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - online|15
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|16
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|17
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - بكلمات|19
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - world|20
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|21
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|23
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|24
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|26
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - after|27
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|28
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|30
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|34
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wannaone|39
+474839 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|84
+485838 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+485838 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 23675
+485841 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - ldyygm2dnk|1
+485841 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+485841 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+485841 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - carried|4
+485841 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|5
+485841 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - other|6
+485841 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - irene|7
+485841 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - نصيري|8
+485841 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - التامة|9
+485841 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - نافعاً|10
+485841 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - morning|11
+485841 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - album|12
+485841 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - until|13
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - still|14
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - event|15
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اليوم|16
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - person|17
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|18
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - please|19
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - بكلمات|20
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|22
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wanna|23
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|24
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|26
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|28
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|29
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|30
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|31
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|38
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wannaone|43
+485842 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|91
+496891 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+496891 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 24928
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - موتانا|1
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - carried|4
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - difícil|5
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|6
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - hindi|7
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - russia|8
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - irene|9
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|10
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - علماً|11
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|12
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - right|13
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - while|14
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - quando|15
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - still|16
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - checked|17
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|18
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - think|19
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - march|20
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - please|21
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - بكلمات|22
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|23
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|28
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|29
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|30
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|34
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|42
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wannaone|44
+496895 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|95
+507943 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+507943 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 26213
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - موتانا|1
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - carried|4
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - difícil|5
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|6
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - viernes|7
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - hindi|8
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - irene|9
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - eyesonyou|10
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - nunca|11
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|12
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - right|13
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - while|14
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - quando|15
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - still|16
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - checked|17
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|18
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|19
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - should|20
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - please|21
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|23
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wanna|24
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - never|25
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|29
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - after|30
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|31
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|32
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|35
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|36
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|43
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wannaone|46
+507947 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|102
+518945 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+518945 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 27469
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - موتانا|1
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - carried|4
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - cryptocurrency|5
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - update|6
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|7
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - hindi|8
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - irene|9
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - eyesonyou|10
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - nunca|11
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|12
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - dapat|13
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - while|14
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - watch|15
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - still|16
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - checked|17
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|18
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - robinsons|19
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - march|20
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - should|21
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - please|22
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - بكلمات|23
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|24
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - never|25
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|30
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - after|31
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|33
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|34
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|37
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|38
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|49
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wannaone|50
+518949 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|110
+530047 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+530047 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 28761
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - موتانا|1
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - carried|4
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - simply|5
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - cryptocurrency|6
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|7
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - hindi|8
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - irene|9
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - التامة|10
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - eyesonyou|11
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|12
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - dapat|13
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|14
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - because|15
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - still|16
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - checked|17
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|18
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - promise|19
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|20
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - march|21
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - should|22
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - please|23
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - بكلمات|24
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|25
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wanna|27
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|30
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - never|31
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|32
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|34
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|36
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|39
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|43
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|49
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wannaone|53
+530052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|112
+541047 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+541048 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 30033
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - موتانا|1
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - carried|4
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - difícil|5
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - cryptocurrency|6
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|7
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - viernes|8
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - irene|9
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - التامة|10
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - eyesonyou|11
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|12
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - dapat|13
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|14
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - followers|15
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - right|16
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - because|17
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - checked|18
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - quando|19
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|20
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|21
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - march|22
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - being|23
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - بكلمات|24
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|25
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - world|26
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wanna|27
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - after|31
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|32
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|34
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - never|35
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|36
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|37
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|39
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|44
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|51
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wannaone|53
+541052 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|115
+552049 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+552049 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 31269
+552053 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - موتانا|1
+552053 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+552053 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+552053 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - carried|4
+552053 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - difícil|5
+552053 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - cryptocurrency|6
+552053 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|7
+552053 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - favorite|8
+552053 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - irene|9
+552053 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - maybe|10
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - علماً|11
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|12
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - eyesonyou|13
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|14
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - anything|15
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - while|16
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - watch|17
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - because|18
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - quando|19
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - online|20
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - every|21
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|22
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|23
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - بكلمات|24
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - should|25
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|26
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wanna|29
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|32
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - video|35
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - never|36
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|37
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|39
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|41
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|46
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|53
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wannaone|59
+552054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|118
+563050 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+563050 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 32604
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - موتانا|1
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - carried|4
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - mental|5
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - cryptocurrency|6
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - simply|7
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - favorite|8
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|9
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - support|10
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - heart|11
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|12
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - dapat|13
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - eyesonyou|14
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - daily|15
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|16
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - start|17
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - checked|18
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - because|19
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - retweet|20
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - barber|21
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - great|22
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|23
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|24
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - بكلمات|25
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - please|26
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - should|27
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - world|28
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|29
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wanna|32
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|33
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - after|34
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - video|36
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - never|39
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|42
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|43
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|45
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|51
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|53
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wannaone|62
+563055 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|122
+574051 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+574051 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 33824
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اعتاد|1
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - carried|4
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - mental|5
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - cryptocurrency|6
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - simply|7
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - favorite|8
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|9
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - russia|10
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - heart|11
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - madrid|12
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - nunca|13
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|14
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - daily|15
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|16
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - start|17
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - checked|18
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - because|19
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - still|20
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - barber|21
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - great|22
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - promise|23
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|24
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|25
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - بكلمات|26
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - march|27
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - should|28
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|32
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wanna|34
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - after|36
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|39
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - never|40
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|41
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|43
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|44
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|48
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|52
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|53
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wannaone|63
+574057 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|129
+585053 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+585053 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 35057
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اعتاد|1
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - carried|4
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - difícil|5
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - mental|6
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - yourself|7
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - simply|8
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|9
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - russia|10
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - maybe|11
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - madrid|12
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - hindi|13
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|14
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - check|15
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|16
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - while|17
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - checked|18
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - quando|19
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - right|20
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - because|21
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - great|22
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - twitter|23
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - going|24
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|25
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - بكلمات|26
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|27
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - robinsons|28
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - elyxioninbkk|29
+585058 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - being|30
+585059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - should|32
+585059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|34
+585059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - 180316|37
+585059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - after|38
+585059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|39
+585059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - video|41
+585059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - never|42
+585059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|43
+585059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - today|44
+585059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|45
+585059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|51
+585059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|55
+585059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - سبحان|62
+585059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wannaone|63
+585059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|136
+596054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - 
+
+
+596054 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - Word count: 36127
+596059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اعتاد|1
+596059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - niallofficial|2
+596059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - rival|3
+596059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - carried|4
+596059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - store|5
+596059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - mental|6
+596059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - yourself|7
+596059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - cryptocurrency|8
+596059 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - irene|9
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - story|10
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - support|11
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - madrid|12
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - hindi|13
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - puede|14
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - check|15
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - الأذان|16
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - while|17
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - checked|18
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - quando|19
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - watch|20
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - still|21
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - because|22
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - really|23
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - years|24
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - والله|25
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - maymay|26
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - بكلمات|27
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - please|28
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - บุพเพสันนิวาส|29
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - being|30
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - official|31
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - should|33
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wanna|35
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - youtube|37
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - their|40
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - never|43
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - video|44
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - first|45
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - there|46
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - follow|52
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - edward|55
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - wannaone|63
+596060 [Thread-12-WordCounterBolt] INFO  com.kaviddiss.storm.WordCounterBolt - top - اللهم|140
+606610 [Thread-7] INFO  backtype.storm.daemon.nimbus - Delaying event :remove for 120 secs for storm-twitter-word-count-1-1521192890
+606639 [Thread-7] INFO  backtype.storm.daemon.nimbus - Updated storm-twitter-word-count-1-1521192890 with status {:type :killed, :kill-time-secs 120}
+606639 [Thread-7] INFO  backtype.storm.daemon.nimbus - Shutting down master
+606642 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x1622e2969580001
+606650 [Thread-7] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x1622e2969580001 closed
+606650 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+606650 [Thread-7] INFO  backtype.storm.daemon.nimbus - Shut down master
+606650 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:53020 which had sessionid 0x1622e2969580001
+606651 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x1622e2969580003
+606662 [Thread-7] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x1622e2969580003 closed
+606662 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+606662 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:53024 which had sessionid 0x1622e2969580003
+606662 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x1622e2969580005
+606675 [Thread-7] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x1622e2969580005 closed
+606675 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+606675 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:53028 which had sessionid 0x1622e2969580005
+606675 [Thread-7] INFO  backtype.storm.daemon.supervisor - Shutting down supervisor 1de8a420-3790-442b-9593-a9a80831076b
+606676 [Thread-3] INFO  backtype.storm.event - Event manager interrupted
+606676 [Thread-4] INFO  backtype.storm.event - Event manager interrupted
+606677 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x1622e2969580007
+606687 [Thread-7] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x1622e2969580007 closed
+606687 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+606687 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:53032 which had sessionid 0x1622e2969580007
+606687 [Thread-7] INFO  backtype.storm.daemon.supervisor - Shutting down 540dc64f-24d9-4842-ac10-97e1ca0c7c7d:4b75d990-8e3a-40ba-8f0e-30ed6f8ca97d
+606687 [Thread-7] INFO  backtype.storm.process-simulator - Killing process 3e72a800-17f6-409f-83fe-8d893c179a8d
+606688 [Thread-7] INFO  backtype.storm.daemon.worker - Shutting down worker storm-twitter-word-count-1-1521192890 540dc64f-24d9-4842-ac10-97e1ca0c7c7d 1027
+606688 [Thread-7] INFO  backtype.storm.daemon.worker - Shutting down receive thread
+606688 [Thread-7] INFO  backtype.storm.messaging.loader - Shutting down receiving-thread: [storm-twitter-word-count-1-1521192890, 1027]
+606688 [Thread-7] INFO  backtype.storm.messaging.loader - Waiting for receiving-thread:[storm-twitter-word-count-1-1521192890, 1027] to die
+606688 [Thread-8-worker-receiver-thread-0] INFO  backtype.storm.messaging.loader - Receiving-thread:[storm-twitter-word-count-1-1521192890, 1027] received shutdown notice
+606689 [Thread-7] INFO  backtype.storm.messaging.loader - Shutdown receiving-thread: [storm-twitter-word-count-1-1521192890, 1027]
+606690 [Thread-7] INFO  backtype.storm.daemon.worker - Shut down receive thread
+606690 [Thread-7] INFO  backtype.storm.daemon.worker - Terminating messaging context
+606690 [Thread-7] INFO  backtype.storm.daemon.worker - Shutting down executors
+606690 [Thread-7] INFO  backtype.storm.daemon.executor - Shutting down executor TwitterSampleSpout:[2 2]
+606691 [Thread-9-disruptor-executor[2 2]-send-queue] INFO  backtype.storm.util - Async loop interrupted!
+606691 [Thread-10-TwitterSampleSpout] INFO  backtype.storm.util - Async loop interrupted!
+606753 [Twitter Stream consumer-1[Disposing thread]] INFO  twitter4j.TwitterStreamImpl - Inflater has been closed
+606755 [Thread-7] INFO  backtype.storm.daemon.executor - Shut down executor TwitterSampleSpout:[2 2]
+606755 [Thread-7] INFO  backtype.storm.daemon.executor - Shutting down executor WordCounterBolt:[3 3]
+606755 [Thread-12-WordCounterBolt] INFO  backtype.storm.util - Async loop interrupted!
+606755 [Thread-11-disruptor-executor[3 3]-send-queue] INFO  backtype.storm.util - Async loop interrupted!
+606756 [Thread-7] INFO  backtype.storm.daemon.executor - Shut down executor WordCounterBolt:[3 3]
+606756 [Thread-7] INFO  backtype.storm.daemon.executor - Shutting down executor WordSplitterBolt:[4 4]
+606757 [Thread-13-disruptor-executor[4 4]-send-queue] INFO  backtype.storm.util - Async loop interrupted!
+606757 [Thread-14-WordSplitterBolt] INFO  backtype.storm.util - Async loop interrupted!
+606757 [Thread-7] INFO  backtype.storm.daemon.executor - Shut down executor WordSplitterBolt:[4 4]
+606757 [Thread-7] INFO  backtype.storm.daemon.executor - Shutting down executor __acker:[5 5]
+606758 [Thread-15-disruptor-executor[5 5]-send-queue] INFO  backtype.storm.util - Async loop interrupted!
+606758 [Thread-16-__acker] INFO  backtype.storm.util - Async loop interrupted!
+606759 [Thread-7] INFO  backtype.storm.daemon.executor - Shut down executor __acker:[5 5]
+606759 [Thread-7] INFO  backtype.storm.daemon.executor - Shutting down executor __system:[-1 -1]
+606759 [Thread-17-disruptor-executor[-1 -1]-send-queue] INFO  backtype.storm.util - Async loop interrupted!
+606759 [Thread-18-__system] INFO  backtype.storm.util - Async loop interrupted!
+606759 [Thread-7] INFO  backtype.storm.daemon.executor - Shut down executor __system:[-1 -1]
+606760 [Thread-7] INFO  backtype.storm.daemon.executor - Shutting down executor IgnoreWordsBolt:[1 1]
+606760 [Thread-20-IgnoreWordsBolt] INFO  backtype.storm.util - Async loop interrupted!
+606760 [Thread-19-disruptor-executor[1 1]-send-queue] INFO  backtype.storm.util - Async loop interrupted!
+606761 [Thread-7] INFO  backtype.storm.daemon.executor - Shut down executor IgnoreWordsBolt:[1 1]
+606761 [Thread-7] INFO  backtype.storm.daemon.worker - Shut down executors
+606761 [Thread-7] INFO  backtype.storm.daemon.worker - Shutting down transfer thread
+606761 [Thread-21-disruptor-worker-transfer-queue] INFO  backtype.storm.util - Async loop interrupted!
+606761 [Thread-7] INFO  backtype.storm.daemon.worker - Shut down transfer thread
+606763 [Thread-7] INFO  backtype.storm.daemon.worker - Shutting down default resources
+606763 [Thread-7] INFO  backtype.storm.daemon.worker - Shut down default resources
+606783 [Thread-7] INFO  backtype.storm.daemon.worker - Disconnecting from storm cluster state context
+606783 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x1622e296958000b
+606795 [Thread-7] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x1622e296958000b closed
+606795 [Thread-6-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+606795 [Thread-7] INFO  backtype.storm.daemon.worker - Shut down worker storm-twitter-word-count-1-1521192890 540dc64f-24d9-4842-ac10-97e1ca0c7c7d 1027
+606795 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:53064 which had sessionid 0x1622e296958000b
+606800 [Thread-7] INFO  backtype.storm.daemon.supervisor - Shut down 540dc64f-24d9-4842-ac10-97e1ca0c7c7d:4b75d990-8e3a-40ba-8f0e-30ed6f8ca97d
+606800 [Thread-7] INFO  backtype.storm.daemon.supervisor - Shutting down supervisor 540dc64f-24d9-4842-ac10-97e1ca0c7c7d
+606800 [Thread-5] INFO  backtype.storm.event - Event manager interrupted
+606801 [Thread-6] INFO  backtype.storm.event - Event manager interrupted
+606801 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x1622e2969580009
+606816 [Thread-7] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x1622e2969580009 closed
+606816 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+606816 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:53036 which had sessionid 0x1622e2969580009
+606816 [Thread-7] INFO  backtype.storm.testing - Shutting down in process zookeeper
+606817 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - NIOServerCnxn factory exited run method
+606817 [Thread-7] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - shutting down
+606817 [Thread-7] INFO  org.apache.storm.zookeeper.server.SessionTrackerImpl - Shutting down
+606817 [Thread-7] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Shutting down
+606817 [Thread-7] INFO  org.apache.storm.zookeeper.server.SyncRequestProcessor - Shutting down
+606817 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - PrepRequestProcessor exited loop!
+606817 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.SyncRequestProcessor - SyncRequestProcessor exited!
+606817 [Thread-7] INFO  org.apache.storm.zookeeper.server.FinalRequestProcessor - shutdown of request processor complete
+606818 [Thread-7] INFO  backtype.storm.testing - Done shutting down in process zookeeper
+606818 [Thread-7] INFO  backtype.storm.testing - Deleting temporary path /tmp/fac6a5a1-a28f-4064-848a-049ab224ad41
+606819 [Thread-7] INFO  backtype.storm.testing - Deleting temporary path /tmp/364f9993-ac61-4ec0-82ce-6d76ba5fda33
+606819 [Thread-7] INFO  backtype.storm.testing - Deleting temporary path /tmp/f928445f-47ed-4b94-86a6-18c2a0f88558
+606821 [Thread-7] INFO  backtype.storm.testing - Deleting temporary path /tmp/f4a12e92-f346-4e3e-b252-fc4a630f8c23
